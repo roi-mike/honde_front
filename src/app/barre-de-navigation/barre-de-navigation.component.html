@@ -1,0 +1,53 @@
+<ng-template [ngIf]="autorisation" [ngIfElse]="deconnecte">
+    <div id="nav_barre_connection_div" >
+        <div id="logo_honde_div" >
+            <img id="logo_honde_img"  src="../../assets/nav_barre/Instagram-Logo.png" alt="" srcset="">
+        </div>
+    
+        <div id="relationship_div">
+            <input id="search_relationship_input" placeholder="Rechercher" type="text">
+        </div>
+    
+        <div id="authentification_div">
+            <a id="connection_authentification_a" href="http://">
+                <i class="fas fa-home"></i>
+            </a>
+            <a id="register_authentification_a" href="http://">
+                <i class="far fa-envelope"></i>
+            </a>
+            <a id="register_authentification_a" href="http://">
+                <i class="fas fa-compass"></i>
+            </a>
+            <a id="register_authentification_a" href="http://">
+                <i class="far fa-heart"></i>
+            </a>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #deconnecte>
+    <div id="nav_barre_deconnection_div">
+        <div id="logo_honde_div" >
+            <img id="logo_honde_img"  src="../../assets/nav_barre/Instagram-Logo.png" alt="" srcset="">
+        </div>
+    
+        <div id="relationship_div">
+            <input id="search_relationship_input" placeholder="Rechercher" type="text">
+        </div>
+    
+        <div id="authentification_div">
+            <a id="connection_authentification_a" href="http://">
+                <button id="connection_authentification_btn">Se connecter</button>
+            </a>
+            <a id="register_authentification_a" href="http://">
+                <button id="register_authentification_btn">S'inscrire</button>
+            </a>
+        </div>
+    </div>
+</ng-template>
+    
+
+
+
+
+
