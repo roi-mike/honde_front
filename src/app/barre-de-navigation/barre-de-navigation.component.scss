@@ -2,6 +2,7 @@ $gray : rgb(187, 177, 177);
 
 //DECONNECTION--------------------------
 #nav_barre_deconnection_div{
+    position: fixed;
     width: 100%;
     height:53px;
     background-color: white;
@@ -67,7 +68,6 @@ $gray : rgb(187, 177, 177);
 
 //CONNECTION---------------------------
 #nav_barre_connection_div{
-    position:fixed;
     width: 100%;
     height:53px;
     background-color: white;
