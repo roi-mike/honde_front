@@ -8,7 +8,7 @@ import { BarreDeNavigationComponent } from './barre-de-navigation/barre-de-navig
 @NgModule({
   declarations: [
     AppComponent,
-    BarreDeNavigationComponent
+    BarreDeNavigationComponent,
   ],
   imports: [
     BrowserModule,

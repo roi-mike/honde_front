@@ -1,26 +1,34 @@
 $gray : rgb(187, 177, 177);
 
-//DECONNECTION
+//DECONNECTION--------------------------
 #nav_barre_deconnection_div{
+    position: fixed;
     width: 100%;
     height:53px;
     background-color: white;
     border-bottom: 1px solid $gray ;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    //logo
+    //DIV logo
     #logo_honde_div{
-        width: 350px;
-        height: 100%;
+        width: 290px;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
         #logo_honde_img{
             height: 100%;
             width: 35%;
-            margin-left:225px;
         }
     }
-    //Barre de recherche
+    //DIV Barre de recherche
     #relationship_div{
+        width: 250px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
         #search_relationship_input{
             width: 200px;
             height: 25px; 
@@ -29,17 +37,17 @@ $gray : rgb(187, 177, 177);
         }
     }
 
-    //authentification
+    //DIV authentification
     #authentification_div{
-        width: 340px;
+        width: 400px;
         height: 100%;
         display: flex;
-        justify-content: left;
+        justify-content: flex-end;
         align-items: center;
         #connection_authentification_btn{
             width: 120px;
-            height: 35px;
-            font-size: 90%;
+            height: 30px;
+            font-size: 100%;
             border-radius: 5px;
             border: none;
             color: white;
@@ -47,8 +55,8 @@ $gray : rgb(187, 177, 177);
         }
         #register_authentification_btn{
             width: 120px;
-            height: 35px;
-            font-size: 90%;
+            height: 30px;
+            font-size: 100%;
             border-radius: 5px;
             border: none;
             color: rgb(21, 149, 246);
@@ -58,30 +66,34 @@ $gray : rgb(187, 177, 177);
 }
 
 
-//CONNECTION
-
-
+//CONNECTION---------------------------
 #nav_barre_connection_div{
     width: 100%;
     height:53px;
     background-color: white;
     border-bottom: 1px solid $gray ;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    //logo
+    //DIV logo
     #logo_honde_div{
-        width: 350px;
-        height: 100%;
-        margin-left: 90px;
+        width: 290px;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
         #logo_honde_img{
             height: 100%;
             width: 35%;
         }
     }
-    //Barre de recherche
+    //DIV Barre de recherche
     #relationship_div{
-        margin-left: -300px;
+        width: 250px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
         #search_relationship_input{
             width: 200px;
             height: 25px; 
@@ -90,18 +102,92 @@ $gray : rgb(187, 177, 177);
         }
     }
 
-    //authentification
+    //DIV authentification
     #authentification_div{
-        width: 340px;
+        width: 400px;
         height: 100%;
-        margin-left:-190px;
         display: flex;
-        justify-content: left;
+        justify-content: flex-end;
         align-items: center;
-        a{
+        i{
             font-size: 25px;
             color: black;
             margin-left: 20px;
+            
+        }
+        #hear_element_authentification_div{
+            position: absolute;
+            top: 53px;
+            width: 40%;
+            height: 50%;
+            border-radius: 0 0 5px 5px;
+            background-color: white;
+            #title_hear_element_authentification_p{
+                font-weight: bold;
+            }
+            /*CONTENEUR LIKES INFORMATION*/
+            #like_element_authentification_div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 98%;
+                height: 50px;
+                margin-top: 10px;
+                padding: 10px 5px 10px 5px;
+                #img_personnage_like_authentification_a{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                }
+                #info_for_even_authentification_div{
+                    padding: 0px 10px 0px 10px;
+                    #id_even_authentification_div{
+                        color: black;
+                        font-weight: bold;
+                    }
+                    #when_like_authentification_time{
+                        color: rgb(151, 149, 149);
+                    }
+                }
+                #img_mentinonnee_like_authentification_a{
+                    width: 50px;
+                    height: 50px;
+                    
+                }
+            }
+        }
+        #img_personne_element_authentification_div{
+            position: absolute;
+            top: 53px;
+            width: 15%;
+            height: 30%; 
+            border-radius: 0px 0px 5px 5px;
+            .user_account_authentification_div{
+                display: flex;
+                width: 100%;
+                height: 20px;
+                padding: 4px;
+                margin-top: 10px;
+                font-size: 18px;
+                .icon_user_account_authentification_div{
+                    width: 20%;
+                    height: 25px;
+                }
+                .title_user_account_authentification_div{
+                    padding: 0 0 0 15px;
+                    width: 100%;
+                    height: 25px;
+                }
+             }
+             .right_user_account_authentification_div{
+                 transform:translate(25px);
+            }
+        }
+        #img_personnage_authentification_a{
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin-left: 15px;
         }
     }
 }
