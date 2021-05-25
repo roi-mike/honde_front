@@ -8,6 +8,7 @@ import { ErreurPageComponent } from './erreur-page/erreur-page.component';
 import { HomePageViewComponent } from './home-page-view/home-page-view.component';
 import { RegisterPageViewComponent } from './register-page-view/register-page-view.component';
 import { MotDePassePerduViewComponent } from './mot-de-passe-perdu-view/mot-de-passe-perdu-view.component';
+import { LoginPageViewComponent } from './login-page-view/login-page-view.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MotDePassePerduViewComponent } from './mot-de-passe-perdu-view/mot-de-p
     HomePageViewComponent,
     RegisterPageViewComponent,
     MotDePassePerduViewComponent,
+    LoginPageViewComponent,
   ],
   imports: [
     BrowserModule,
