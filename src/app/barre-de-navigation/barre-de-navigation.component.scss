@@ -120,7 +120,7 @@ $gray : rgb(187, 177, 177);
             position: absolute;
             top: 53px;
             width: 40%;
-            height: 50%;
+            height: 400px;
             border-radius: 0 0 5px 5px;
             background-color: white;
             #title_hear_element_authentification_p{
@@ -157,11 +157,13 @@ $gray : rgb(187, 177, 177);
                 }
             }
         }
+        
         #img_personne_element_authentification_div{
             position: absolute;
             top: 53px;
             width: 15%;
-            height: 30%; 
+            height: 220px; 
+            background-color: white;
             border-radius: 0px 0px 5px 5px;
             .user_account_authentification_div{
                 display: flex;
