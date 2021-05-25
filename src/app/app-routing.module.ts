@@ -14,7 +14,7 @@ const routes: Routes = [
   component : HomePageViewComponent,
 },
 {
-  path: 'login',
+  path: 'accounts/login',
   component : LoginPageViewComponent,
 },
 {
