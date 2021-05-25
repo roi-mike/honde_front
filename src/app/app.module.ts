@@ -7,6 +7,7 @@ import { BarreDeNavigationComponent } from './barre-de-navigation/barre-de-navig
 import { ErreurPageComponent } from './erreur-page/erreur-page.component';
 import { HomePageViewComponent } from './home-page-view/home-page-view.component';
 import { RegisterPageViewComponent } from './register-page-view/register-page-view.component';
+import { MotDePassePerduViewComponent } from './mot-de-passe-perdu-view/mot-de-passe-perdu-view.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { RegisterPageViewComponent } from './register-page-view/register-page-vi
     ErreurPageComponent,
     HomePageViewComponent,
     RegisterPageViewComponent,
+    MotDePassePerduViewComponent,
   ],
   imports: [
     BrowserModule,

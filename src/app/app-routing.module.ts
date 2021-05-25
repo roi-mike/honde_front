@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomePageViewComponent } from './home-page-view/home-page-view.component';
 import { RegisterPageViewComponent } from './register-page-view/register-page-view.component';
 import { ErreurPageComponent } from './erreur-page/erreur-page.component';
+import { MotDePassePerduViewComponent } from './mot-de-passe-perdu-view/mot-de-passe-perdu-view.component';
 
 const routes: Routes = [
 {
@@ -14,6 +15,10 @@ const routes: Routes = [
 {
   path: 'accounts/emailsignup',
   component: RegisterPageViewComponent,
+},
+{
+  path: 'accounts/password/reset',
+  component : MotDePassePerduViewComponent,
 },
 {
   path: '**',
