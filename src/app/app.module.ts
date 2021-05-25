@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BarreDeNavigationComponent } from './barre-de-navigation/barre-de-navigation.component';
 import { ErreurPageComponent } from './erreur-page/erreur-page.component';
 import { HomePageViewComponent } from './home-page-view/home-page-view.component';
+import { RegisterPageViewComponent } from './register-page-view/register-page-view.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { HomePageViewComponent } from './home-page-view/home-page-view.component
     BarreDeNavigationComponent,
     ErreurPageComponent,
     HomePageViewComponent,
+    RegisterPageViewComponent,
   ],
   imports: [
     BrowserModule,
